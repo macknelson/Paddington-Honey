@@ -20,19 +20,55 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.typekit.net/yva5qgb.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <div class="logo" style="background-image: url(img/logo.png)"></div>
-  <h1>We Make Honey.</h1>
+<div class="logo" style="background-image: url(img/logo.png)"></div>
+<h2>Welcome To Paddington Honey</h2>
+<h1>We Make Honey.</h1>
+<h4>
+  Raw, all natural honey, sourced locally in Charlotte. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+  mattis, nisl at sollicitudin hendrerit, metus lectus sollicitudin est, ut bibendum odio elit ac eros. <a href="mailto:paddingtonhoneyco@gmail.com" target="_blank" rel="noopener noreferrer">Email
+  paddingtonhoneyco@gmail.com for more details.</a>
+</h4>
+
+<div class="slider">
+  <img alt="Slider Image 7" src="/img/slider-img-7.jpg">
+  <img alt="Slider Image 1" src="/img/slider-img-1.jpg">
+  <img alt="Slider Image 2" src="/img/slider-img-2.jpg">
+  <img alt="Slider Image 6" src="/img/slider-img-6.jpg">
+  <img alt="Slider Image 3" src="/img/slider-img-3.jpg">
+  <img alt="Slider Image 4" src="/img/slider-img-4.jpg">
+  <img alt="Slider Image 8" src="/img/slider-img-8.jpg">
+  <img alt="Slider Image 9" src="/img/slider-img-9.jpg">
+  <img alt="Slider Image 10" src="/img/slider-img-10.jpg">
+  <img alt="Slider Image 5" src="/img/slider-img-5.jpg">
 
 
+</div>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<script>
+  $('.slider').slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    arrows: false,
+    variableWidth: true
+  });
+
+  $(".slick-slide").on("click", function(){
+    $('.slider').slick("slickNext");
+  });
+</script>
 </body>
 
 </html>

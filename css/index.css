@@ -4,6 +4,7 @@ body {
     linear-gradient(90deg, #000000 0%, rgba(30, 30, 30, 0.8) 100%),
       /* bottom, image */
     url(~/img/bg.jpg);
+  padding: 50px 110px;
 }
 .logo {
   width: 250px;
@@ -20,8 +21,31 @@ h1 {
     to right, #FFFFFF, #FFD600, #FFB800);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h2 {
   font-family: Scout,sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+h4 {
+  font-family: Scout, sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 1.75rem;
+  max-width: 950px;
+}
+.slick-slide {
+  max-height: 500px;
+  margin: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+h4 > a {
+  font-weight: 600;
+  color: white;
 }

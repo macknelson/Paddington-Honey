@@ -262,20 +262,20 @@ textarea {
 }
 @font-face {
   font-family: 'Scout';
-  src: url('~/fonts/Scout-Bold.eot');
-  src: url('~/fonts/Scout-Bold.eot?#iefix') format('embedded-opentype'),
-  url('~/fonts/Scout-Bold.woff2') format('woff2'),
-  url('~/fonts/Scout-Bold.woff') format('woff'),
-  url('~/fonts/Scout-Bold.ttf') format('truetype');
-  font-weight: bold;
+  src: url('../fonts/Scout-Bold.eot');
+  src: url('../fonts/Scout-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Scout-Bold.woff2') format('woff2'),
+  url('../fonts/Scout-Bold.woff') format('woff'),
+  url('../fonts/Scout-Bold.ttf') format('truetype');
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Scout';
-  src: url('~/fonts/Scout-Light.eot');
-  src: url('~/fonts/Scout-Light.eot?#iefix') format('embedded-opentype'),
-  url('~/fonts/Scout-Light.woff') format('woff'),
-  url('~/fonts/Scout-Light.ttf') format('truetype');
+  src: url('../fonts/Scout-Light.eot');
+  src: url('../fonts/Scout-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Scout-Light.woff') format('woff'),
+  url('../fonts/Scout-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
