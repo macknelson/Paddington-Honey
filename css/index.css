@@ -5,12 +5,21 @@ body {
       /* bottom, image */
     url(~/img/bg.jpg);
   padding: 50px 110px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.main {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .logo {
   width: 250px;
   height: 250px;
   background-size: cover;
-  border-radius: 250px
+  border-radius: 250px;
+  margin: 0 auto;
 }
 h1 {
   font-family: grad,serif;
@@ -48,4 +57,33 @@ h4 {
 h4 > a {
   font-weight: 600;
   color: white;
+}
+@media screen and (max-width: 1150px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 565px) {
+  body {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 465px) {
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 5vw;
+  }
 }
