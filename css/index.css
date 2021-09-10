@@ -1,0 +1,13 @@
+body {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(90deg, #000000 0%, rgba(30, 30, 30, 0.8) 100%),
+      /* bottom, image */
+    url(~/img/bg.jpg);
+}
+h1 {
+  font-family: grad,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6rem;
+}
